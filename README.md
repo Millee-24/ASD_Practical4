@@ -26,5 +26,11 @@ git clone "https:/(Enter the https link here)"
 cd ASD_Practical4 (Enter the name of your repository here)
 ls
 code . (This will open the repository folder in git hub)
+# Did the changes in readme file on VS code
 git status
+git add README.md
+git commit -m "Updated the README.md file" 
+#Changes get stored in local repository, it get stored permanently on your system but not yet visible online to make the changes visible online follow the next command
+git push
+
 
